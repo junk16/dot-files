@@ -1,0 +1,13 @@
+{
+  "name": "lsp_modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "dependencies": {
+    "dockerfile-language-server-nodejs": "*",
+    "@microsoft/compose-language-service": "*",
+    "graphql-language-service-server": "*",
+    "sql-language-server": "*"
+  }
+}

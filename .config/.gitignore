@@ -1,0 +1,6 @@
+anyenv/anyenv-install/*
+coc/list_history.dat
+coc/lists
+coc/commands
+yarn/*
+

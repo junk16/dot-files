@@ -1,0 +1,3 @@
+-- vim.keymap.set('n', '<leader>b', '<Cmd>BufferPrevious<CR>', { silent = true })
+-- vim.keymap.set('n', '<leader>n', '<Cmd>BufferNext<CR>', { silent = true })
+-- vim.keymap.set('n', '<leader>dd', '<Cmd>BufferClose<CR>', { silent = true })

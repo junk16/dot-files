@@ -1,0 +1,7 @@
+{
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpstan/phpstan": "^1.10",
+        "phpmetrics/phpmetrics": "^2.8"
+    }
+}

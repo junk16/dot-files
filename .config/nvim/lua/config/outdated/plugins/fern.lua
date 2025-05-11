@@ -1,0 +1,6 @@
+-- -- Set Fern options to show hidden files and exclude specific files
+-- vim.g["fern#default_hidden"] = 1
+-- vim.g["fern#default_exclude"] = "\\%(\\.git$\\|\\.DS_Store\\|build$\\)"
+--
+-- -- Show file tree with Ctrl+n
+-- vim.keymap.set('n', '<leader>f', '<Cmd>Fern . -reveal=% -drawer -toggle -width=40<CR>', { silent = true })
