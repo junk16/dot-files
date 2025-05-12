@@ -4,6 +4,7 @@ return {
     version = false,
     config = function()
       -- Enable desired mini.nvim modules here
+      require('mini.sessions').setup()
       require("mini.starter").setup()
       require("mini.pairs").setup()
       require("mini.comment").setup()
@@ -12,6 +13,14 @@ return {
       require('mini.indentscope').setup()
       require('mini.trailspace').setup()
       require('mini.surround').setup()
+      require('mini.tabline').setup()
+      require('mini.bufremove').setup()
+      require('mini.pick').setup()
+      require('mini.jump2d').setup()
+      require('mini.bracketed').setup()
+      require('mini.align').setup()
+      require('mini.move').setup()
+
       -- Add more modules as neededk
       vim.api.nvim_create_user_command(
         'Trim',
