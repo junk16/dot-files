@@ -186,3 +186,8 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 
 alias rara='find . -type d -mindepth 1 -print0 | xargs -I{} -0  rar a {}.rar {}'
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:${HOME}/.lmstudio/bin"
+# End of LM Studio CLI section
+
