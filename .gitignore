@@ -1,5 +1,5 @@
 .config/fish
-.config/github-copilot/app.config.json
+.config/github-copilot/apps.json
 .config/karabiner/automatic_backups
 .composer/vendor
 .
