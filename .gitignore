@@ -7,3 +7,4 @@
 .config/containers/podman/machine/applehv/podman-machine-default.ign
 .config/containers/podman/machine/applehv/podman-machine-default.json
 .config/containers/podman-connections.json
+.config/containers/podman-connections.json.lock
