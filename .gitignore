@@ -3,3 +3,7 @@
 .config/karabiner/automatic_backups
 .composer/vendor
 .
+
+.config/containers/podman/machine/applehv/podman-machine-default.ign
+.config/containers/podman/machine/applehv/podman-machine-default.json
+.config/containers/podman-connections.json

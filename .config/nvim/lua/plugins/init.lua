@@ -43,4 +43,3 @@ return {}
 --   { "folke/trouble.nvim" },
 --   { 'nvim-treesitter/nvim-treesitter' },
 -- }
-
