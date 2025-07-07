@@ -3,8 +3,11 @@
 .config/karabiner/automatic_backups
 .composer/vendor
 .
+.config/uv/
+.config/bpytop/error.log
 
 .config/containers/podman/machine/applehv/podman-machine-default.ign
 .config/containers/podman/machine/applehv/podman-machine-default.json
 .config/containers/podman-connections.json
 .config/containers/podman-connections.json.lock
+.aider*
