@@ -1,6 +1,8 @@
 return {
+	{ "nvim-mini/mini.nvim", version = false },
+	{ "nvim-mini/mini.sessions", version = false },
 	{
-		"echasnovski/mini.nvim",
+		"nvim-mini/mini.pick",
 		version = false,
 		config = function()
 			-- Enable desired mini.nvim modules here
