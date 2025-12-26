@@ -149,10 +149,14 @@ _ydv(){
 alias ydawe='_ydawe'
 _ydawe(){
 	local url="${1}"
-    local type="${2}"
+  local type="${2}"
 	yt-dlp  --no-check-certificate -x --audio-format wav "${url}"
 }
-
+alias yds='_yds'
+_yds(){
+  local url="${1}"
+  yt-dlp --live-from-start "${url}"
+}
 
 dmysql ()
 {
@@ -193,3 +197,6 @@ export PATH="$PATH:${HOME}/.lmstudio/bin"
 
 
 . "$HOME/.local/bin/env"
+
+# Added by Antigravity
+export PATH="/Users/jun.yamada/.antigravity/antigravity/bin:$PATH"
