@@ -1,4 +1,6 @@
 .
+.DS_Store
+
 config/fish
 config/github-copilot/apps.json
 config/karabiner/automatic_backups
@@ -10,5 +12,12 @@ config/containers/podman/machine/applehv/podman-machine-default.ign
 config/containers/podman/machine/applehv/podman-machine-default.json
 config/containers/podman-connections.json
 config/containers/podman-connections.json.lock
+
+config/github-copilot/auth.db
+config/github-copilot/auth.db-shm
+config/github-copilot/auth.db-wal
+config/github-copilot/copilot-intellij.db
+config/github-copilot/iu/
+
 .aider*
 .composer/vendor
